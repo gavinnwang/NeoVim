@@ -6,7 +6,11 @@ return {
             require "configs.conform"
         end,
     },
-    { "mrjones2014/smart-splits.nvim" },
+    -- { "mrjones2014/smart-splits.nvim", lazy = false },
+    {
+        "christoomey/vim-tmux-navigator",
+        lazy = false,
+    },
     {
         "neovim/nvim-lspconfig",
         config = function()
