@@ -1,4 +1,13 @@
 return {
+ {
+  "tpope/vim-fugitive",
+  cmd = {"Git"},
+  priority = 1000,
+},
+{
+	"nanotee/zoxide.vim",
+	cmd={"Z", "Lz", "Tz", "Zi", "Lzi", "Tzi"}
+},
     {
         "stevearc/conform.nvim",
         -- event = 'BufWritePre', -- uncomment for format on save

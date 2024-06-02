@@ -25,3 +25,8 @@ map('n', '<C-h>', '<cmd> TmuxNavigateLeft<CR>')
 map('n', '<C-l>', '<cmd> TmuxNavigateRight<CR>')
 map('n', '<C-j>', '<cmd> TmuxNavigateDown<CR>')
 map('n', '<C-k>', '<cmd> TmuxNavigateUp<CR>')
+-- Remap search next to ]
+map('n', ']', 'n', { noremap = true, silent = true })
+
+-- Remap search previous to [
+map('n', '[', 'N', { noremap = true, silent = true })
