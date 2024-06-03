@@ -41,7 +41,7 @@ return {
                 "gopls",
                 "pyright",
                 "clang-format",
-                "cmake-language-server",
+                "millet",
                 "rust-analyzer",
             },
         },
