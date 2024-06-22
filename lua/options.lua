@@ -4,7 +4,7 @@ require "nvchad.options"
 
 local o = vim.o
 o.cursorlineopt ='both' -- to enable cursorline!
-o.shell= "fish"
+o.shell= "zsh"
 
 vim.g.mapleader = " "
 vim.opt.nu = true
